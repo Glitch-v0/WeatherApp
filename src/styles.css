@@ -1,0 +1,60 @@
+:root {
+    font-size: 10px;
+}
+
+form {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 1vh;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(10px, 4vh, 50px);
+    background: rgb(161, 196, 253);
+    background: radial-gradient(circle, rgba(161, 196, 253, 1) 77%, rgba(235, 235, 235, 1) 100%);
+    color: rgb(23, 55, 74);
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+h3:hover {
+    font-weight: bold;
+}
+#location,
+#infoContainer {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2vh;
+    width: 50vw;
+    margin: 0vh;
+}
+
+button,
+#cityInput {
+    background-color: rgb(255, 255, 255, 0.25);
+    font-weight: normal;
+    height: 5vh;
+    font-size: 1.75rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button {
+    width: 20vw;
+}
+button:hover,
+#cityInput:hover {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
